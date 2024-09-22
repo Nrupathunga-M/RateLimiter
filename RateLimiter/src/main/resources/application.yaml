@@ -1,0 +1,10 @@
+ratelimiter:
+  instances:
+    userRateLimiter:
+      limit-refresh-period: 4s
+      limit-for-period: 2
+      timeout-duration: 2s
+    basic:
+      limit-refresh-period: 8s
+      limit-for-period: 4
+      timeout-duration: 4s
